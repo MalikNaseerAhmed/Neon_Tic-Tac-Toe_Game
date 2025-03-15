@@ -60,3 +60,4 @@ A modern twist on the classic game with glowing visuals and smart AI! Built with
 
 Made with ❤️ and JavaScript magic! ✨  
 Give it a star ⭐ if you love neon aesthetics!
+### 🔥 Dominate the Neon Grid! 🤖 Crush our Minimax AI in 9⚡pulsing cells. 🏆 Strategize, glow, claim cyber-glory. 🚀 Your throne of light awaits… <a href="https://maliknaseerahmed.github.io/Neon_Tic-Tac-Toe_Game">PLAY NOW ➔ 🌌💫</a>
