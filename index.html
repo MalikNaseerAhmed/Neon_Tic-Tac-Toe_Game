@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Modal for Match win -->
+    <div id="congratsModal" class="modal">
+        <div class="modal-content">
+            <h2>🎉 Congratulations, <span id="MatchWinner"></span>! 🎉</h2>
+            <p>You won the Match!</p>
+            <button class="computer-btn" id="newMatch">New Match</button>
+        </div>
+    </div>
+
+    <div class="game-container">
+        <div class="left-column">
+            <div class="game-header">
+                <h1>⚡ Neon Tic Tac Toe ⚡</h1>
+            </div>
+
+            <div class="controls">
+                <!-- Match controls -->
+                <div class="Match-controls">
+                    <input type="number" id="targetScore" placeholder="Set Target" min="1">
+                    <button class="primary-btn" id="startMatch">Start Match</button>
+                </div>
+
+                <div class="mode-selector">
+                    <button class="primary-btn" id="humanVsHuman">PvP</button>
+                    <button class="computer-btn" id="humanVsComputer">vs AI</button>
+                </div>
+
+                <div class="player-input">
+                    <input type="text" id="playerX" placeholder="Player X" value="Player X">
+                    <input type="text" id="playerO" placeholder="Player O" value="Player O">
+                </div>
+
+                <div class="score-board">
+                    <div class="score-item">
+                        <h3 id="scoreXName">Player X</h3>
+                        <p id="scoreX">0</p>
+                    </div>
+                    <div class="score-item">
+                        <h3 id="scoreOName">Player O</h3>
+                        <p id="scoreO">0</p>
+                    </div>
+                </div>
+
+                <div class="New-reset">
+                    <button class="primary-btn" id="restartButton">New Game</button>
+                    <button class="danger-btn" id="resetScore">Reset Score</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="status" id="status">Player X's Turn</div>
+            <div class="board" id="board">
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
